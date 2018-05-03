@@ -1,0 +1,42 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+         "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {"tag": "subjects",
+         "patterns": ["What subjects are you intrested in?", "What are your favourite subjects?", "What is your topic of intrest?" ],
+         "responses": ["We're teaching ML, Python, cloud computing please pick one", "Our expertice are ML, Python and cloud computing"]
+        },
+        {"tag": "Machine learning",
+         "patterns": ["Which the most suatable LM algorithem?", "What kinds of activation functions are there?", "What do ANN do?" ],
+         "responses": ["Recurrent , LSTM and RNN are some of the types", "ANN's are artificial neural networks and they are very helpful"]
+        },
+        {"tag": "payments",
+         "patterns": ["Do you take credit cards?", "Do you accept Mastercard?", "Are you cash only?" ],
+         "responses": ["We accept VISA, Mastercard and AMEX", "We accept most major credit cards"]
+        },
+        {"tag": "RNN",
+         "patterns": ["what is RNN?", "When do I use RNN?", "What are diffrent typrs of RNN?"],
+         "responses": ["RNN and its explanation", "Uses of RNN", "types of RNN"]
+        },
+        {"tag": "CNN",
+         "patterns": ["what is a CNN?", "I'd like to know more about CNN", "How does a CNN work?" ],
+         "responses": ["explanation of cnn"],
+         "context_set": "CNN"
+        },
+        {"tag": "CNN",
+         "patterns": ["CNN"],
+         "responses": ["For CNN please reffer to XXXXXXXXX textbook or vedio book"],
+         "context_filter": "CNN"
+        }
+   ]
+}
